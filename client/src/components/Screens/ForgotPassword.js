@@ -40,7 +40,7 @@ const ForgotPassword = () => {
                             border: "ridge", paddingLeft: "1%"
                         }} type="text" placeholder="Enter Email" name="email"></input>
                         <button className="btn-grad" type="submit" >Send</button>
-                        <h5><NavLink to="/login">Login Back</NavLink></h5>
+                        <h5><NavLink to="/">Login Back</NavLink></h5>
                     </form>
                 </div>
             </div>

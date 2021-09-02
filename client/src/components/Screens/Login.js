@@ -28,7 +28,7 @@ const Login = () => {
                     toast.success(res.message, { position: toast.POSITION.TOP_RIGHT })
                     login(res.userDetails, res.token)
 
-                    history.push("/")
+                    history.push("/create")
                 }
                 else {
                     toast.warn(res.message, { position: toast.POSITION.TOP_RIGHT })

@@ -52,7 +52,7 @@ const Signup = () => {
 
                     <div className="S-star">
                         <div className="S-sta">
-                            <h2>Instagram</h2>
+                            <h2>SIGNUP</h2>
                             <h8>Sign up to see photos and videos from your friends.</h8>
                             <i className="fa fa-facebook-official" aria-hidden="true"><h7>  <NavLink style={{ color: "white" }} to="/"> Log in with Facebook</NavLink></h7></i>
                             <p></p>
@@ -67,7 +67,7 @@ const Signup = () => {
                             <h9>By signing up, you agree to our Terms , Data Policy and Cookies Policy .</h9>
                         </div>
                     </div>
-                    <h5>Have an account?<NavLink to="/login">Login</NavLink></h5>
+                    <h5>Have an account?<NavLink to="/">Login</NavLink></h5>
                 </div>
             </>
         )

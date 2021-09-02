@@ -9,9 +9,9 @@ const Navbar = () => {
       return (
         <>
         
-          <li><NavLink to="/profile">Profile</NavLink></li>
+         
           <li><NavLink to="/create">Add Post</NavLink></li>
-          <li><NavLink to="/login" onClick={logout}>Log Out</NavLink></li>
+          <li><NavLink to="/" onClick={logout}>Log Out</NavLink></li>
         </>
       )
     }
@@ -19,7 +19,7 @@ const Navbar = () => {
       return (
         <>
 
-          <li><NavLink to="/login">Login</NavLink></li>
+         
           <li><NavLink to="/signup">Register</NavLink></li>
 
         </>
@@ -35,7 +35,7 @@ const Navbar = () => {
     <>
       <nav>
         <div className="nav-wrapper white">
-        <NavLink to="/" className="brand-logo left">Instagram</NavLink>
+      
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <Nav />
 

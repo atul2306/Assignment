@@ -43,7 +43,7 @@ const App = () => {
         // component equal to { } kr ke b kr skta
          
           <Route exact path="/"><Login /></Route>
-      
+          
           <Route exact path="/signup"><Signup /></Route>
           <Route exact path="/create"><Createpost /></Route>
           <Route exact path="/forgot"><ForgotPassword /></Route>

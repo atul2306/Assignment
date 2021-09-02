@@ -22,7 +22,7 @@ const Createpost = () => {
 
         <>
             <div className="C-create">
-                <div style={{
+                <div className="C-cre" style={{
                     display: "flex", width: "50%", alignContent: "center", justifyContent: "center",
                     border: "outset",
                     borderRadius: "1rem",

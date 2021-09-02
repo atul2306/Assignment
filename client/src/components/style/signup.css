@@ -158,3 +158,17 @@
 .toast-container{
     bottom: 54px !important;
 }
+  
+
+@media(max-width:780px){
+  .S-star{
+    width: 76%;
+    height: 69%;
+    right: 3%;
+    bottom: 5%;
+  }
+  .S-start h5{
+    width: 77%;
+    top: -6%;
+  }
+}
